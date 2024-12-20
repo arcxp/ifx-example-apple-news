@@ -1,10 +1,16 @@
-# arcxp-ifx-apple-news-recipe
+# IFX Example Apple News
+
+Example code is provided by a community of developers. They are intended to help you get started more quickly, but are not guaranteed to cover all scenarios nor are they supported by Arc XP.
+
+> These examples are licensed under the [MIT license](https://mit-license.org/): THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Reiterated from license above, all code in this example is free to use, and as such, there is NO WARRANTY, SLA or SUPPORT for these examples.
+
+----
 
 Get started publishing Arc XP content to Apple News using IFX
 
 Our recipe can be found [here](https://docs.arcxp.com/alc/en/ifx-node-js-recipe-pushing-arc-xp-content-to-apple-news?id=kb_article_view&sys_kb_id=993663ce47a53150eee38788436d4360&spa=1).
-
-##### _*Disclaimer:* Recipes are reference implementations intended to help developers get started more quickly, but are not guaranteed to cover all scenarios nor are they supported by Arc XP. They are are provided “as is” and Arc XP is not responsible for it after you begin using it. Recipes may be updated to incorporate best practices or new solutions at the sole discretion of Arc XP._
 
 ## Build Status
 
@@ -14,7 +20,7 @@ Our recipe can be found [here](https://docs.arcxp.com/alc/en/ifx-node-js-recipe-
 
 ### Prerequisites
 
-1. Create a personal access token with `read:package` scope in your GitHub account. See [&#34;Creating a personal access token.&#34;](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+1. Create a personal access token with `read:package` scope in your GitHub account. See ["Creating a personal access token."](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 2. Once a PAT is created, there are two ways to install the Node.js SDK dependency. The first option is to create your local .npmrc file directly. Another option is to use npm login command.
 
    - Create your local .npmrc file directly
@@ -116,10 +122,8 @@ The included example createBundle script will create a zip file from this repo i
 
 ### To Create a Bundle
 
-To create a bundle to deploy to sandbox run:
-`npm run createSandboxBundle` 
+To create a bundle to deploy to sandbox run: `npm run createSandboxBundle`
 
-To create a bundle to deploy to production run:
-`npm run createProdBundle` 
+To create a bundle to deploy to production run: `npm run createProdBundle`
 
-Follow IFX api documentation for deploying bundles
+Follow [IFX API](https://dev.arcxp.com/api/integrations/integrations-production/#operations-tag-bundles) documentation for deploying bundles.
